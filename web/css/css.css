@@ -1,3 +1,4 @@
+/* index */
 .long{
     background-image: linear-gradient(to right,#FFF8e1,#FFE5F1);
     width: 100%;
@@ -10,46 +11,48 @@
 }
 .head{
     width:12%;
-    height:50px;
+    height:5%;
     display: flex;
     position: absolute;
     left:5%;
     border-radius: 9%;
     background-image: linear-gradient(to right,#FFE5F1,#ff84bd);
-    top:30px;
-    
+    top:5%;
+
 }
 img{
     width:100px;
 }
 .h{
     margin-left:50px;
-    Font-size:200%;
+    Font-size:180%;
     text-decoration:inherit;
 }
 .conte{
     width:45%;
+    height: 60%;
     position: absolute;
     left:53%;
-    top:135px;
+    top:15%;
 }
 .conte1{
     width:45%;
     position: absolute;
     left:5%;
-    top:135px;
+    top:15%;
 }
 .photo{
     width:100%;
-    height:500px;
+    height:90%;
     border-radius: 10%;
 }
 .photo2{
+    height: 100%;
     border-radius: 20%;
 }
 .con_1{
     position: absolute;
-    top:700px;
+    top:65%;
     left:30%;
 }
 h1{
@@ -74,16 +77,18 @@ button{
     margin-left:50px;
 }
 .e{
-     text-decoration:inherit;
+    text-decoration:inherit;
     color: black;
     Font-size:200%;
 }
+
+/* login */
 .input1{
     background-image: linear-gradient(to right,#C0DEFF,#ADA2FF);
-    margin:25px;
+    margin-top:6%;
     width: 90%;
-    height: 60px;
-    padding: 15px;
+    height: 8%;
+    padding: 4%;
     border-radius: 16px;
     border: none;
     text-align: center;
@@ -96,11 +101,12 @@ button{
 .form1{
     background-color: #ff84bd;
     width: 40%;
-    height: 740PX;
+    height: 90%;
     border-radius: 15%;
 }
-.input1[type="button"] ,.button1{
-    height: 60px;
+.button1{
+    margin-top: 6%;
+    height:9%;
     width: 50%;
     color:black;
     border-radius: 100px;
@@ -109,28 +115,27 @@ button{
     font-size: 20px;
 }
 
-
+/* ict */
 body{background-image: linear-gradient(to right,#FFF8e1,#FFE5F1);}
 .h1{
     display: flex;
-    width: 100%;   
+    width: 100%;
     text-align: center;
 }
 .s{
     width: 17%;
-    height:300px;
     background-image: linear-gradient(to right,#C0DEFF,#ADA2FF);
     border-radius: 16px;
     border: none;
-    margin: 20px;
+    margin: 15px;
     }
 .text{
     color:black;
-    font-size: 250%
+    font-size: 200%
 }
 img{
     width: 100%;
-    height: 90px;
+    height: 60px;
     border-radius: 16px;
     border: none;
 }
@@ -138,11 +143,13 @@ img{
     text-decoration:inherit;
     display: flex;
     flex-direction: column;
-    font-size: 170%;
+    font-size: 140%;
     color:black;
 }
+
+/* home */
 .body2{
-                
+
     background-size: cover;
 }
 .h1{
@@ -153,7 +160,7 @@ img{
 
 .s1{
     width: 100%;
-    height:40px;
+    height:10%;
     background-image: linear-gradient(to right,#FFE5F1,#ff84bd);
     border-radius: 16px;
     border: none;
@@ -164,7 +171,7 @@ img{
     display: flex;
     flex-direction: column;
     text-align: center;
-    font-size: 170%;
+    font-size: 160%;
     color:black;
 }
 .m{
@@ -173,22 +180,25 @@ img{
 }
 .k{
     width: 15%;
+    height: 5%;
     color: black;
     background-image: linear-gradient(to right,#FFE5F1,#ff84bd);
-    margin: 20px 800px;
+    margin: 1% 43%;
     border-radius: 16px;
     text-align: center;
-    font-size: 180%;
+    font-size: 140%;
 }
 .f{
 width: 20%;
-height:40px;
+height:10%;
 background-image: linear-gradient(to right,#C0DEFF,#ADA2FF);
 border-radius: 16px;
 border: none;
 margin: 0px 40px;
 text-align: center;
 }
+
+/* Trips and Zira and Degrees and data abouut you */
 .body3{
     background-image: linear-gradient(to right,#C0DEFF,#FFF8e1,#FFE5F1);
 }
@@ -207,8 +217,8 @@ td{
 }
 input[type="button"]{
     background-image: linear-gradient(to right,#C0DEFF,#ADA2FF);
-    width: 25%;
-    height:30px;
+    width: 40%;
+    height:50%;
     font-size: 90%;
     border-radius:5px ;
     color: black;
@@ -226,18 +236,19 @@ input[type="number"]{
 th{
     color:black;
     font-size: 150%;
-    
+
 }
 input{
     text-align: center;
 }
+/* students Affairs */
 .body5{
     background-image: linear-gradient(to right,#FFF8e1,#FFE5F1);
 }
 .down{
     display:flex;
     width: 100%;
-    
+
 }
 .long1{
     width: 100%;
@@ -265,8 +276,6 @@ input{
 
 .s4{
     text-decoration:inherit;
-    display: flex;
-    flex-direction: column;
     text-align: center;
     font-size: 170%;
 }
